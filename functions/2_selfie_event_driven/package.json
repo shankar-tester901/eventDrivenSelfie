@@ -1,0 +1,10 @@
+{
+	"name": "selfie_event_driven",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "shankarr+1003@zohocorp.com",
+	"dependencies": {
+		"resize-img": "^2.0.0",
+		"zcatalyst-sdk-node": "latest"
+	}
+}

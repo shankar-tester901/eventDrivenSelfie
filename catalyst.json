@@ -1,0 +1,20 @@
+{
+  "functions": {
+    "targets": [
+      "selfie_event_driven",
+      "2_selfie_event_driven"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  },
+  "applogic": {
+    "targets": [
+      "selfie_event_driven"
+    ],
+    "ignore": [],
+    "source": "applogic"
+  }
+}

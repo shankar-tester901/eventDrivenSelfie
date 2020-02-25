@@ -1,0 +1,10 @@
+{
+	"deployment": {
+		"name": "2_selfie_event_driven",
+		"stack": "node10",
+		"type": "event"
+	},
+	"execution": {
+		"main": "index.js"
+	}
+}

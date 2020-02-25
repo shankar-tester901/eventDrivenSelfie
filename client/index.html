@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>sampleApp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css" type="text/css" media="all">
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"> </script>
+    <script src="https://js.zohostatic.com/catalystclient/0.0.1/catalystWebSDK.js"></script>
+    <script>
+        let cred = new catalystCredential();
+        cred.loadFromJSON({
+            project_Id: 343000000078200,
+            zaid: 10018531481
+        });
+        catalyst.initApp(cred, {});
+
+    </script>
+</head>
+
+<body>
+    <div class="row">
+        <div class="column" style="background-color:rgb(235, 168, 168);">
+            <div class="camera">
+                <video id="video">Video stream not available.</video>
+                <button id="startbutton">Take Selfie</button>
+
+                <!-- p> The Canvas</p -->
+
+                <canvas id="canvas" hidden>
+                </canvas>
+
+
+            </div>
+        </div>
+
+
+        <div class="column" style="background-color:rgb(243, 243, 220);">
+
+            <p>You Beauty!</p>
+
+            <div class="output">
+                <img id="photo" name="selfieImage" alt="The screen capture will appear in this box.">
+            </div>
+            <br>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
